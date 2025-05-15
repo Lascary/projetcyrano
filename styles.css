@@ -2,11 +2,33 @@
 
 /* Base Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Clear Sans", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+
+h1 {
+    font-family: "Arial", sans-serif;
+}
+
+p {
+    font-family: "Segoe UI", sans-serif;
+}
+
+
+
 
 header {
     background-color: #333;
