@@ -7,50 +7,51 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-
+/*Supprime les valeurs par défaut*/
 body, ul {
   margin: 0;
   padding: 0;
 }
 
-.navbar {
-  background-color: #333;
-  padding: 10px 0;
-}
-
-
-h1 {
-    font-family: "Arial", sans-serif;
-}
-
-p {
-    font-family: "Segoe UI", sans-serif;
-}
-
-
-
-
+/*Bandeau supérieur*/
 header {
-    background-color: #333;
-    padding: 10px 0;
-    color: white;
+    background-color: #FFEEDD;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    color: #1F1F1F;
+    position: sticky;
+    top: 0;
+    z-index: 1000;  
 }
 
-nav ul {
+.navbar {
+    background-color: #FFEEDD;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.navbar ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
 }
 
-nav ul li {
+.navbar ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 80px;
 }
 
-nav ul li a {
-    color: white;
+.navbar ul li a {
+    color: #1F1F1F;
     text-decoration: none;
     font-weight: bold;
+    display: inline-block; /* ← nécessaire pour transform */
+    transition: transform 0.06s ease; /* ← transition fluide */
+}
+
+.navbar ul li a:hover {
+  /*text-decoration: underline;*/
+  transform: scale(1.5); /* agrandit à 120% */
 }
 
 section {
@@ -59,10 +60,10 @@ section {
 }
 
 footer {
-    background-color: #333;
+    background-color: #1F1F1F;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 100px 0;
 }
 
 /* Responsive Design */

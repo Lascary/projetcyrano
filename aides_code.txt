@@ -15,8 +15,6 @@ git add *.html
 
 
 pour ajouter les modifications à l'index = stocké localement
-
-
         Utilisez
 git commit -m "Description des modifications"
 
