@@ -47,6 +47,7 @@ body, ul {
   justify-self: start;
   margin: 0;
   height: 40px;
+  max-height: 40px;
   display: block;
 }
 
